@@ -23,7 +23,7 @@ Data layer (`MFormData`, raw):
 Quotient layer (`MForm`, the honest 1-form type):
 * `MForm.ofForm1`/`Form1.toMForm : Form1 X →ₗ[ℂ] MForm X` (the design's frozen bridge name).
 * `SMul (ℳ X) (MForm X)`, the **full `Module (ℳ X) (MForm X)` instance**, plus
-  `IsScalarTower ℂ (ℳ X) (MForm X)`/`SMulCommClass ℂ (ℳ X) (MForm X)`. The module laws that FAIL
+  `IsScalarTower ℂ (ℳ X) (MForm X)`. The module laws that FAIL
   for raw families (`add_smul`/`mul_smul`/`one_smul` need `holoRepr`-of-a-sum identities that
   break at poles) hold on the quotient: `holoRepr` of `f + g`/`f * g`/`c • f` agrees with the
   pointwise combination on `𝓝[≠] x` for EVERY `x` (`holoRepr_eventuallyEq_nhdsNE` against the

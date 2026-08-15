@@ -53,8 +53,8 @@ congruences; the raw files remain the foundation every proof works through via r
   `RS.MForm.ord_ne_top`/`eq_zero_iff_forall_ord_eq_top`.
 * **Differentials & the `ℳ(X)`-module structure** (`Differential.lean`, D7):
   `RS.MForm.ofForm1`/`RS.Form1.toMForm : Form1 X →ₗ[ℂ] MForm X`/`RS.MForm.ofForm1_injective`;
-  the full **`Module (ℳ X) (MForm X)`** instance plus `IsScalarTower ℂ (ℳ X) (MForm X)`/
-  `SMulCommClass ℂ (ℳ X) (MForm X)` (via the `holoRepr` germ identities `RS.Mero.holoRepr_add`/
+  the full **`Module (ℳ X) (MForm X)`** instance plus `IsScalarTower ℂ (ℳ X) (MForm X)`
+  (via the `holoRepr` germ identities `RS.Mero.holoRepr_add`/
   `mul`/`smul`/`inv`/`zero`/`one`); `RS.MForm.ord_smul_mero` (`(h • Θ).ord x = h.ord x + Θ.ord x`);
   `RS.MForm.d` with `d_add`/`d_const`; `RS.MForm.dlog` with the argument-principle atom
   `RS.MForm.resAt_dlog : (dlog f).resAt x = (f.ord x).untop₀` (junk-robust, no `f ≠ 0`).
